@@ -1,0 +1,68 @@
+import { CategoryInfo } from './types';
+
+export const categories: CategoryInfo[] = [
+  {
+    id: 'general',
+    name: 'General Knowledge',
+    iconName: 'Compass',
+    description: 'A global mix of history, logic, trivia, and standard culture.',
+    colorClass: 'from-blue-500 to-indigo-600',
+    glowingColor: 'rgba(59, 130, 246, 0.4)',
+  },
+  {
+    id: 'science',
+    name: 'Science & Cosmos',
+    iconName: 'Atom',
+    description: 'Explore stars, mechanics, physics, biology, and advanced engineering.',
+    colorClass: 'from-cyan-500 to-teal-600',
+    glowingColor: 'rgba(6, 182, 212, 0.4)',
+  },
+  {
+    id: 'history',
+    name: 'History & Legends',
+    iconName: 'Hourglass',
+    description: 'Travel through timelines, historic battles, empires, and pioneers.',
+    colorClass: 'from-amber-500 to-orange-600',
+    glowingColor: 'rgba(245, 158, 11, 0.4)',
+  },
+  {
+    id: 'pop',
+    name: 'Pop Culture & Screen',
+    iconName: 'Film',
+    description: 'Iconic movies, streaming shows, celebrity lore, and internet memes.',
+    colorClass: 'from-pink-500 to-rose-600',
+    glowingColor: 'rgba(244, 63, 94, 0.4)',
+  },
+  {
+    id: 'tech',
+    name: 'Tech & Gaming',
+    iconName: 'Cpu',
+    description: 'Retro arcade lore, Silicon Valley history, and gaming highlights.',
+    colorClass: 'from-purple-500 to-indigo-700',
+    glowingColor: 'rgba(168, 85, 247, 0.4)',
+  },
+  {
+    id: 'geography',
+    name: 'Geography & Travel',
+    iconName: 'Globe',
+    description: 'Exotic borders, capitals, flags, hidden landmarks, and oceans.',
+    colorClass: 'from-emerald-500 to-green-600',
+    glowingColor: 'rgba(16, 185, 129, 0.4)',
+  },
+  {
+    id: 'music',
+    name: 'Music & Beats',
+    iconName: 'Music',
+    description: 'Legendary rock bands, synth masters, classical prodigies, and modern hits.',
+    colorClass: 'from-violet-500 to-fuchsia-600',
+    glowingColor: 'rgba(139, 92, 246, 0.4)',
+  },
+  {
+    id: 'sports',
+    name: 'Sports & Games',
+    iconName: 'Trophy',
+    description: 'World cup dramas, Olympic stars, historic events, and rules of play.',
+    colorClass: 'from-yellow-500 to-yellow-600',
+    glowingColor: 'rgba(234, 179, 8, 0.4)',
+  },
+];

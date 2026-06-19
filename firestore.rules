@@ -1,0 +1,15 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allows anyone to read and write high scores and gameplay statuses securely 
+    match /leaderboard/{document} {
+      allow read, write: if true;
+    }
+    match /stats/{document} {
+      allow read, write: if true;
+    }
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}

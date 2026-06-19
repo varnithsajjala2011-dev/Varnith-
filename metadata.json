@@ -1,0 +1,6 @@
+{
+  "name": "Infinite Trivia Quiz & Leaderboard",
+  "description": "An infinite trivia quiz game with over 100,000+ dynamically generated questions across different categories, featuring real-time user scores and global leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
